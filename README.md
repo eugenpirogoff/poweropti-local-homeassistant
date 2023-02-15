@@ -8,7 +8,7 @@ Here is the example configuration yaml with two meter devices in the local netwo
 
 [PowerOpti](https://www.powerfox.energy)
 
-```
+```yaml
 
 # Loads default set of integrations. Do not remove.
 default_config:
@@ -65,6 +65,7 @@ rest:
 
   - resource: http://192.168.178.121/rpc
     method: POST
+    scan_interval: 1
     headers:
       Content-Type: application/json
     payload: >
