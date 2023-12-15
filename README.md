@@ -1,3 +1,5 @@
+# DEPRECATED: With a new firmware the local RPC call is only working with a certificate and a password and this script does not work anymore. 
+
 # PowerOpti Local for Home Assistant
 
 This repo contains a reverse engineered configuration for PowerOpti readout in a Home Assistant local setup. No need to use the limited API to readout the data when it is in your local network anyway. When the PowerOpti is setup by the mobile app, the PowerOpti opens a wifi to be joined and the traffic that is being made from the mobile app to the meter device is not encrypted. The mobile app is capable of reading out the meter directly. Its simple RPC call with no barrier.
